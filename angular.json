@@ -31,12 +31,15 @@
 						"assets": [
 							"src/favicon.ico",
 							"src/assets",
-							"src/admin"
+							"src/admin",
+							"src/content"
 						],
 						"styles": [
 							"src/styles.scss"
 						],
-						"scripts": []
+						"scripts": [
+							"node_modules/marked/marked.min.js"
+						]
 					},
 					"configurations": {
 						"production": {
