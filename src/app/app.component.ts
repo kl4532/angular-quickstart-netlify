@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['../demo-styling.css']
 })
 export class AppComponent {
-  title = 'angular-quickstart';
+  constructor() {
+  }
+
+  ngOnInit() {
+
+  }
 }

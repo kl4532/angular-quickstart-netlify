@@ -3,14 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { ScullyLibModule } from '@scullyio/ng-lib';
+import {ComponentsModule} from "./components/components.module";
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ScullyLibModule,
+    ComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
