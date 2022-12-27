@@ -1,17 +1,9 @@
 [build]
-  command="npm run build"
-  publish="dist/static"
+command = "ng build --prod && npm run scully"
+functions = "netlify/functions"
+publish = "dist/static"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[plugins]]
-  package = "netlify-plugin-cypress"
-
-  [plugins.inputs.postBuild]
-    enable = true
-
-  [plugins.inputs]
-    enable = false
+from = "/*"
+to = "/index.html"
+status = 200
