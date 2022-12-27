@@ -1,5 +1,5 @@
 [build]
-command = "ng build && npm run scully"
+command = "npm run build"
 functions = "netlify/functions"
 publish = "dist/static"
 

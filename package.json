@@ -4,11 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && npm run scully",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "scully": "npx scully --",
     "scully:serve": "npx scully serve --",
+    "scully-build:dev": "npx scully --configFile scully.angular-quickstart.dev.config.ts",
     "netlify-proxy-server": "npx netlify-cms-proxy-server"
   },
   "private": true,
