@@ -1,5 +1,5 @@
 {
-  "name": "angular-quickstart",
+  "name": "ng-ssg-template",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,7 @@
     "test": "ng test",
     "scully": "npx scully --",
     "scully:serve": "npx scully serve --",
-    "scully-build:dev": "npx scully --configFile scully.angular-quickstart.dev.config.ts",
+    "scully-build:dev": "npx scully --configFile scully.ng-ssg-template.dev.config.ts",
     "netlify-proxy-server": "npx netlify-cms-proxy-server"
   },
   "private": true,
