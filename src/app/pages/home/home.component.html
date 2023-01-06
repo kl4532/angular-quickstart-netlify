@@ -1,1 +1,10 @@
 <p>home DEV works!</p>
+<h1>Blog List</h1>
+
+<ul>
+  <li *ngFor="let post of blogPosts$ | async">
+    <a [routerLink]="[post.route]">
+      {{ post.title }}
+    </a>
+  </li>
+</ul>

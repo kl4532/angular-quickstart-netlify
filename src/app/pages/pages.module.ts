@@ -6,13 +6,15 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import {ComponentsModule} from "../components/components.module";
 import { NotFoundComponent } from './not-found/not-found.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,

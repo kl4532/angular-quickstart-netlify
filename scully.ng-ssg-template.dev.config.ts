@@ -7,5 +7,17 @@ export const config: ScullyConfig = {
   puppeteerLaunchOptions: {executablePath: '/Applications/Chromium.app/Contents/MacOS/Chromium' || {}},
   outDir: './dist/static',
   routes: {
+    '/blog/:slug': {
+      type: 'contentFolder',
+      slug: {
+        folder: './blog',
+      },
+    },
+    '/about/:slug': {
+      type: 'contentFolder',
+      slug: {
+        folder: './src/assets/content/about',
+      },
+    },
   }
 };
